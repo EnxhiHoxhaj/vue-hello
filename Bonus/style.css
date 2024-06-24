@@ -12,8 +12,18 @@
 
 .flex-container {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding: 80px;
     background-color:cornflowerblue;
     height: 100vh;
+}
+
+.img_class {
+    width: 200px;
+}
+
+.img_saluto {
+    content: url(img/bitch-bitches-by-cool-Favim.com-2164950.jpg);
+    width: 100%;
 }
