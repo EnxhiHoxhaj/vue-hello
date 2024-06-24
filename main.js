@@ -1,3 +1,4 @@
+
 // metodo Vue
 
 const {createApp} = Vue;
@@ -8,7 +9,8 @@ createApp ({
     data () {
         return{
             salutiVue: "HELLO VUE WORLD!!!",
-            myclass: "withe",
+            myclass: "withe", 
+            fCont: "flex-container",
         }
     }
 }).mount(`#app`)

@@ -8,15 +8,18 @@
     <script src="http://unpkg.com/vue@3"></script>
 </head>
 <body>
-    <!--contenitore del nostrio saluto-->
-    <div id="app">
-    
-        <!--saluto-->
-        <h1 :class="myclass">
-            {{salutiVue}}
-        </h1>
+    <section id="app">
 
-    </div>
+        <!--contenitore del nostrio saluto-->
+        <div :class="fCont" >
+        
+            <!--saluto-->
+            <h1 :class="myclass">
+                {{salutiVue}}
+            </h1>
+        </div>
+    </section>
+
     <script src="main.js"></script>
 </body>
 </html>

@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
-body {
-    background-color: aquamarine;
-}
 
 .withe {
     color:white;
+    font-size: 50px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+    background-color:cornflowerblue;
+    height: 100vh;
 }
