@@ -11,7 +11,7 @@ createApp ({
             salutiVue: "HELLO VUE WORLD!!!",
             myclass: "withe", 
             fCont: "flex-container",
-            imgClass: "img_class ",
+            imgClass: "img_class",
             imgSaluto: "img_saluto",
         }
     }

@@ -8,22 +8,23 @@
 .withe {
     color:white;
     font-size: 50px;
+    padding: 50px 0;
 }
 
 .flex-container {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding: 80px;
+    flex-direction: column;
     background-color:cornflowerblue;
     height: 100vh;
+    align-items: center;
 }
 
 .img_class {
-    width: 200px;
+    width: 550px;
 }
 
 .img_saluto {
     content: url(img/bitch-bitches-by-cool-Favim.com-2164950.jpg);
-    width: 100%;
+    width: 550px;
+
 }

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello with Vue Bonus</title>
     <link rel="stylesheet" href="style.css">
-    <script src="http://unpkg.com/vue@3"></script>
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
 <body>
     <section id="app">
@@ -16,7 +16,10 @@
             <h1 :class="myclass">
                 {{salutiVue}}
             </h1><br>
-            <div :class="imgClass"> {{img_saluto}}</div>
+            <div :class="imgClass">
+                <div :class="imgSaluto"></div>
+            </div>
+            
         </div>
     </section>
 
