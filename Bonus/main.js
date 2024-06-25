@@ -12,7 +12,7 @@ createApp ({
             myclass: "withe", 
             fCont: "flex-container",
             imgClass: "img_class",
-            imgSaluto: "img_saluto",
+            imgSaluto: "img/bitch-bitches-by-cool-Favim.com-2164950.jpg",
         }
     }
 }).mount(`#app`)
